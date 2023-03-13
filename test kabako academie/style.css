@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Lexend',sans-serif;
+    font-size: 10px;
+    line-height: 24px;
+    background-color: blue;
+}
+.container{
+    width: 1170px;
+    margin:  0 auto
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+.header ul{
+  list-style: none;
+  display: flex;
+}
+.header ul li a{
+    display: block;
+    margin: 0 10px;
+    color: #fff;
+    transition: .3s;
+}
+.header ul li a:hover{
+    color: #3e0fe7;
+}
+.btn{
+    display: inline-block;
+   background-color: #f7e602;
+   padding: 10px 20px;
+   border-radius: 10px;
+   color: #696868;
+   font-weight: 800;
+   border: 1px solid transparent;
+   transition: .3s;
+
+}
+.btn:hover{
+    background-color: #f7e602;
+    color: #f7e602;
+    border-color: #f7e602;
+}
+.banner-area{
+    background-size: cover;
+    background-position: 50px;
+    padding: 80px 0;
+    color: #fff;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content h5{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #fff;
+}
+.banner-content h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 80px;
+     color: #fff;
+}
+.banner-content h2 span{
+    color: #A61414;
+}
+.banner-content h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.banner-content p{
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.banner-image img{
+    border-radius:20px;
+    margin: 20%;
+}
+.section-area{
+padding: 100px 0;
+color: #fff;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h4{
+font-size: 40px;
+ text-transform: uppercase;
+ font-weight: 700;
+ line-height: 40px;
+ margin-bottom: 15px;
+}
+.single-section{
+    background-color: #2a2a2a;
+    padding: 25px;
+    flex-basis: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.single-section i{
+  background-color: rgb(243, 12, 12);
+  color: #000;
+  font-size: 26px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+}
+.single-section h6 {
+    font-size: 26px;
+    text-transform: capitalize;
+    margin: 25px 0;
